@@ -1,0 +1,20 @@
+from os import getenv
+
+if __name__ == '__main__':
+    print(getenv("CI"))
+    print(getenv("GITHUB_ACTION"))
+    print(getenv("GITHUB_ACTION_PATH"))
+    print(getenv("GITHUB_ACTION_REPOSITORY"))
+    print(getenv("GITHUB_ACTIONS"))
+    print(getenv("GITHUB_ACTOR"))
+    print(getenv("GITHUB_API_URL"))
+    print(getenv("GITHUB_BASE_REF"))
+    print(getenv("GITHUB_ENV"))
+    print(getenv("GITHUB_EVENT_NAME"))
+    print(getenv("GITHUB_EVENT_PATH"))
+    print(getenv("GITHUB_HEAD_REF"))
+    print(getenv("GITHUB_REF"))
+    print(getenv("GITHUB_REF_NAME"))
+    print(getenv("GITHUB_REF_PROTECTED"))
+    print(getenv("GITHUB_REF_TYPE"))
+    print(getenv("GITHUB_SHA"))
